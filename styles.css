@@ -1,0 +1,289 @@
+.backImageBody{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/fond.jpg');
+    background-size: cover;
+    background-position: center; 
+    height : 100vh;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    
+   
+  }
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+	margin: 0;
+	padding: 0;
+    display:  flex;
+    flex-direction: column;
+}
+
+header{
+
+    display: block;
+    text-align: right;
+    margin-top: 5px;
+    
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    height:100%
+}
+
+.container {
+	max-width: 1200px;
+	margin: 50px auto;
+	padding: 20px;
+	background-color: rgba(25,25,25,0.5);
+	box-shadow: 0 0 10px  rgb(2, 127, 217);
+    border: 4px solid #0616c2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.logo{
+    display: block;
+         
+    max-width: 200px;
+    margin: 10px auto 0;
+}
+
+
+.titrejeu {
+    color: white; 
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+}
+
+.soustitre{
+    color: rgb(193, 191, 191); 
+    font-size: 14px;
+    margin-top: -10px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+
+}
+
+.jeu{
+    
+    background-color: rgb(38, 37, 37);
+    border: 1px solid  rgb(239, 243, 1);
+    max-width: 400px;
+    margin-top: 40px;
+    margin-left: auto; 
+    margin-right: auto;
+    
+
+}
+
+
+.recherche {
+    margin-top: 40px;
+    
+    width: 350px;
+    height: 35px;
+    background-color: rgb(29, 34, 39);
+    border: 2px solid rgb(4, 4, 187);
+    color: white;
+    
+   
+ }
+  
+  .recherche:focus {
+    background-color: rgb(29, 34, 39);
+   
+    
+  }
+
+.login{
+
+    max-width: 150px;
+}
+
+.register{
+
+    max-width: 150px;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+	 
+	
+	background-color:  #1d2ee9;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	font-family: 'Gotham Bold';
+}
+
+.barrerecherche {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    
+}
+
+.recherche {
+    flex: 1; /* Fait en sorte que l'input prenne tout l'espace disponible */
+}
+
+
+.soumettre {
+    width: 50px; /* Largeur souhaitée de l'image */
+    height: auto; /* Pour maintenir le ratio d'aspect de l'image */
+    margin-left: 10px;
+    margin-top: 40px; /* Marge à gauche pour l'espace entre l'input et l'image */
+}
+
+
+.jeu1{
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+.ui-menu-item {
+    padding: 3px;
+    cursor: pointer;
+    background-color: rgba(30,35,40);
+    color: white;
+    
+}
+
+.ui-menu-item:hover {
+    background-color: rgba(41,45,48);
+}
+.gauche{
+    float: right;
+}
+.champion-image{
+    height: 40px;
+  }
+.champion-label {
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .ui-menu{
+    overflow-y: scroll;
+    height: 300px;
+
+    background-color: rgba(41,45,48);
+  }
+
+  .reponse{
+    margin-top: 50vh;
+    margin-left: 20vw;
+    width: 60vw;
+    max-height: 100vh;
+    overflow-y : scroll;
+    overflow-x : hidden;
+    
+}
+.reponse1{
+    display: flex;
+    color: white;
+    width: 60vw;
+    height: 120px;
+    padding-bottom: 20px;
+    font-size: 13px;
+    
+
+}
+
+.reponse::-webkit-scrollbar {
+    display: none; /* Cache la barre de défilement sur les navigateurs basés sur WebKit (Chrome, Safari, etc.) */
+}
+
+.Rouge{
+border: 2px solid black; 
+border-radius: 5px;
+padding: 8px;
+background-color: rgb(218,21,15);
+flex:1;
+}
+.Vert{
+border: 2px solid black; 
+border-radius: 5px;
+padding: 8px;
+background-color: rgba(8, 190, 45);
+flex:1;
+}
+.Orange{
+border: 2px solid black; 
+border-radius: 5px;
+padding: 8px;
+background-color: rgba(219, 129, 12);
+flex: 1;
+}
+.Victoire {
+    background-size: cover;
+    background-position: 0 200;
+    height: 100vh;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 225px; 
+}
+.main-container {
+    background: linear-gradient(to bottom, rgb(15, 116, 56), rgb(0, 59, 20));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3px;
+    max-width: 19vw;
+    margin-left: 37vw;
+    max-height: 26vh;
+    padding: 50px;
+    margin-bottom: 9vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-container {
+    text-align: center;
+    color: white;
+}
+
+.rejouer{
+
+    max-width: 100px;
+}
+
+.container2 {
+	max-width: 1200px;
+	margin: 50px auto;
+	padding: 20px;
+	background-color: rgba(25,25,25,1);
+	box-shadow: 0 0 10px  rgb(2, 127, 217);
+    border: 2px solid #0616c2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+    
+}
+

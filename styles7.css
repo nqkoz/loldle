@@ -1,0 +1,51 @@
+
+.backImageBody{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/fond.jpg');
+    background-size: cover;
+    background-position: center; 
+    height : 100vh;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    
+   
+  }
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+	margin: 0;
+	padding: 0;
+    display:  flex;
+    flex-direction: column;
+}
+
+
+.container {
+	max-width: 400px;
+  height: auto;
+	margin: 75px auto 50px auto;
+	padding: 20px;
+	background-color: #191919;
+	box-shadow: 0 0 10px  rgb(2, 127, 217);
+  	border: 4px solid #0616c2;
+	  font-family: 'Gotham Bold';
+}
+
+.titre1{
+    
+    color: white;
+    font-size: 24px; /* Vous pouvez ajuster la taille selon vos préférences */
+   
+}
+
+.titre{
+  color: rgb(255, 204, 0);
+  font-size: 24px;
+}
+
+.photoprofil{
+  max-height: 400px;
+}

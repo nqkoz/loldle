@@ -1,0 +1,133 @@
+.cards-container {
+  display: flex; /* Utilisation de Flexbox */
+  justify-content: space-around; /* Pour répartir les cartes également sur la ligne */
+  flex-wrap: wrap; /* Permet aux cartes de passer à la ligne si l'espace est insuffisant */
+}
+.card {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background: rgba(65, 21, 115, 1);
+  box-shadow: 0px 290px 116px rgba(233, 182, 27, 0.01),
+    0px 164px 98px rgba(233, 182, 27, 0.05), 
+    0px 72px 72px rgba(233, 182, 27, 0.09), 
+    0px 18px 40px rgba(233, 182, 27, 0.1), 
+    0px 0px 0px rgba(233, 182, 27, 0.1);
+  width: 508px;
+  height: 508px;
+  margin: 80px;
+  border-radius: 56px;
+  position: relative;
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 500;
+  font-size: 84px;
+  line-height: 56px;
+  color: #41157300;
+  letter-spacing: 0.1em;
+  transition: 300ms ease-in;
+}
+
+.card:hover {
+  background: rgba(233, 182, 27, 1);
+  box-shadow: 0px 224px 90px rgba(65, 21, 115, 0.01), 
+    0px 126px 76px rgba(65, 21, 115, 0.05), 
+    0px 56px 56px rgba(65, 21, 115, 0.09), 
+    0px 14px 30px rgba(65, 21, 115, 0.1), 
+    0px 0px 0px rgba(65, 21, 115, 0.1);
+  color: #FFFFFF;
+}
+
+.svg {
+  opacity: 80%;
+}
+
+.text {
+  margin: auto;
+  position: absolute;
+}
+select[multiple] option:checked {
+background-color: #cce5ff; /* Couleur de surbrillance */
+font-weight: bold; /* Texte en gras pour un meilleur contraste */
+}
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+margin: 0;
+padding: 0;
+}
+
+.container {
+width: 50%;
+margin: 50px auto;
+background-color: #fff;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+label {
+display: block;
+margin-bottom: 5px;
+font-weight: bold;
+}
+
+input[type="text"],
+select,
+input[type="number"],
+input[type="file"] {
+width: 100%;
+padding: 10px;
+margin-bottom: 15px;
+border: 1px solid #ccc;
+border-radius: 5px;
+box-sizing: border-box;
+}
+
+select[multiple] {
+height: auto;
+}
+
+input[type="submit"] {
+background-color: #4caf50;
+color: white;
+padding: 15px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 16px;
+display: block;
+margin: 0 auto; /* Ajout de la règle pour centrer */
+}
+
+input[type="submit"]:hover {
+background-color: #45a049;
+}
+
+input:invalid {
+border: 1px solid red;
+}
+
+input:valid {
+border: 1px solid #ccc;
+}
+
+.backImageBody{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/fond.jpg');
+  background-size: cover;
+  background-position: center; 
+  height : 100vh;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+  
+ 
+}

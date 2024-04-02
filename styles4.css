@@ -1,0 +1,56 @@
+/* styles4.css */
+header {
+    display: flex;
+    justify-content: space-between; /* Espacement égal entre les éléments du header */
+    align-items: center; /* Aligner les éléments verticalement */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center; /* Aligner les éléments verticalement */
+}
+
+.parametre {
+    width: 50px; /* Changer la taille selon vos besoins */
+    height: auto;
+    margin-right: 10px; /* Espace entre les images */
+}
+
+.ami {
+    width: 50px; /* Changer la taille selon vos besoins */
+    height: auto;
+}
+
+.right-section {
+    display: flex;
+}
+
+.Connexion {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px /* Espace entre le bouton de déconnexion et l'image de profil */
+}
+
+.Profil {
+    margin-top: 5px; /* Déplacer légèrement vers le bas */
+     
+}
+.profil {
+    width: 40px; /* Changer la taille selon vos besoins */
+    height: auto;
+}
+
+.clean{
+    width:100px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.deco{
+    max-width: 110px;  
+    background-color: transparent;
+}
+ 
+.deco img {
+    display: block; /* Assurez-vous que l'image est affichée comme un bloc */
+}
